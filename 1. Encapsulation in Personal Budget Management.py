@@ -54,7 +54,7 @@ class BudgetCategory:
 
     def add_expense(self, amount):
         if amount <= self.__remaining_budget:
-            self.__remaining_budget -= amount
+            self.__remaining_budget - amount
             self.__expenses.append(amount)
         else:
             raise ValueError("Expenses should be positive number.")
