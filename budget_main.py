@@ -1,3 +1,0 @@
-import Enc
-
-def main():
